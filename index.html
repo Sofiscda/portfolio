@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sofia Camillo de Andrade — Portfólio</title>
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="index.html" class="topbar__brand">xoxo</a>
+  <nav>
+    <ul class="topbar__nav">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#certificados">Certificados</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="container hero__inner">
+    <svg class="hero__star" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <polygon points="100,10 122,78 194,78 136,120 158,190 100,148 42,190 64,120 6,78 78,78"
+        fill="none" stroke="#161213" stroke-width="6" stroke-linejoin="round"/>
+    </svg>
+
+    <span class="hero__script">Portfólio</span>
+    <h1 class="hero__name">Sofia Camillo<br>de Andrade</h1>
+    <span class="hero__role">Estudante de Engenharia de Software</span>
+
+    
+
+    <div class="hero__actions">
+      <a href="#projetos" class="btn btn--solid">Ver meus projetos</a>
+      <a href="https://github.com/Sofiscda" class="btn btn--outline" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+  <div class="hero__bottombar"></div>
+</section>
+
+<section class="sobre" id="sobre">
+  <div class="container">
+    <div class="section-title">
+      <span class="section-title__script">um pouco</span>
+      <h2 class="section-title__main">Sobre mim</h2>
+    </div>
+
+    <div class="sobre__grid">
+      <div class="sobre__card">
+        <h3>Quem sou eu</h3>
+        <p data-editable>
+          Sou estudante de Engenharia de Software na PUCPR e gosto de entender como as 
+          coisas funcionam por dentro — de um algoritmo simples até a estrutura
+           de um site completo. Estou sempre estudando alguma linguagem ou ferramenta 
+           nova e gosto de aplicar isso em projetos práticos.
+        </p>
+        <p data-editable>
+          Fora das telas, sou ex-atleta de alto rendimento em triathlon. Nas horas livres, 
+          gosto de jogar Valorant, e nos momentos mais tranquilos prefiro desacelerar cuidando
+          da fazenda em Stardew Valley.
+        </p>
+      </div>
+
+      <div class="polaroid-stack polaroid-stack--duo">
+        <div class="polaroid polaroid--1">
+          <div class="polaroid__bar"><span></span><span></span><span></span></div>
+          <img class="polaroid__photo" src="formatura-retrato.jpg" alt="Sofia formada, com beca e capelo">
+        </div>
+        <div class="polaroid polaroid--2">
+          <div class="polaroid__bar"><span></span><span></span><span></span></div>
+          <img class="polaroid__photo" src="formatura-palestra.jpg" alt="Sofia discursando na formatura">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="habilidades" id="habilidades">
+  <div class="container">
+    <div class="section-title">
+      <span class="section-title__script">o que sei</span>
+      <h2 class="section-title__main">Habilidades</h2>
+    </div>
+
+    <div class="window skills-window">
+      <div class="window__bar">
+        <span></span><span></span><span></span>
+        <span class="window__title">habilidades.py</span>
+      </div>
+      <div class="window__body">
+        <h3>&gt; skills.list()</h3>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Python</li>
+          <li>Web Scraping</li>
+          <li>Git / GitHub</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="projetos" id="projetos">
+  <div class="container">
+    <div class="section-title">
+      <span class="section-title__script">o que criei</span>
+      <h2 class="section-title__main">Meus Projetos</h2>
+    </div>
+
+    <div class="projetos__grid">
+
+      <article class="window project-card">
+        <div class="window__bar">
+          <span></span><span></span><span></span>
+          <span class="window__title"></span>
+        </div>
+        <div class="window__body project-card__body">
+          <h3>Raízes Solidárias</h3>
+          <p class="project-card__desc" data-editable>Site de apoio a refugiados no Brasil, com seus serviços e formulários de contato e voluntariado.</p>
+          <ul class="project-card__tech">
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+          <a href="https://github.com/Sofiscda/Projeto-Raizes-Solidarias" class="project-card__link" target="_blank" rel="noopener">Ver no GitHub →</a>
+        </div>
+      </article>
+
+      <article class="window project-card">
+        <div class="window__bar">
+          <span></span><span></span><span></span>
+          <span class="window__title"></span>
+        </div>
+        <div class="window__body project-card__body">
+          <h3>Web Scraping</h3>
+          <p class="project-card__desc" data-editable>Projeto de Web Scraping com o site da Apple</p>
+          <ul class="project-card__tech">
+            <li>Web Scraping</li>
+            <li>Bibliotecas</li>
+          </ul>
+          <a href="https://github.com/Sofiscda/Web-Scraping" class="project-card__link" target="_blank" rel="noopener">Ver no GitHub →</a>
+        </div>
+      </article>
+
+      <article class="window project-card">
+        <div class="window__bar">
+          <span></span><span></span><span></span>
+          <span class="window__title"</span>
+        </div>
+        <div class="window__body project-card__body">
+          <h3>Tuplas em PY</h3>
+          <p class="project-card__desc" data-editable>Projeto em Python que demonstra o uso de tuplas: criação, indexação e desempacotamento.</p>
+          <ul class="project-card__tech">
+            <li>Python</li>
+          </ul>
+          <a href="https://github.com/Sofiscda/Tuplas" class="project-card__link" target="_blank" rel="noopener">Ver no GitHub →</a>
+        </div>
+      </article>
+
+      <article class="window project-card">
+        <div class="window__bar">
+          <span></span><span></span><span></span>
+          <span class="window__title"/span>
+        </div>
+        <div class="window__body project-card__body">
+          <h3>Jogo de Adivinhação</h3>
+          <p class="project-card__desc" data-editableJogo de adivinhação em Python com níveis de dificuldade que ajustam o intervalo de números e as tentativas.</p>
+          <ul class="project-card__tech">
+            <li>Python</li>
+          </ul>
+          <a href="https://github.com/Sofiscda/Adivinha-o-com-n-vel" class="project-card__link" target="_blank" rel="noopener">Ver no GitHub →</a>
+        </div>
+      </article>
+
+      <article class="window project-card">
+        <div class="window__bar">
+          <span></span><span></span><span></span>
+          <span class="window__title"></span>
+        </div>
+        <div class="window__body project-card__body">
+          <h3>Jogo de adivinhação com tentativas</h3>
+          <p class="project-card__desc" data-editable>Jogo de adivinhação em Python onde o jogador tenta acertar o número secreto em um número limitado de tentativas.</p>
+          <ul class="project-card__tech">
+            <li>Python</li>
+          </ul>
+          <a href="https://github.com/Sofiscda/Adivinhacao-tentativas" class="project-card__link" target="_blank" rel="noopener">Ver no GitHub →</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="certificados" id="certificados">
+  <div class="container">
+    <div class="section-title">
+      <span class="section-title__script">conquistas</span>
+      <h2 class="section-title__main">Certificados</h2>
+    </div>
+
+    <div class="cert-grid">
+
+      <div class="cert-card">
+        <img class="cert-card__badge" src="java-primeira-aplicacao.jpg" alt="Certificado: Java: Criando a sua primeira aplicação">
+        <h3>Java: Criando a sua primeira aplicação</h3>
+        <p>Alura / Programação Paraná</p>
+        <p>2025</p>
+        <a href="java-primeira-aplicacao.pdf" class="btn btn--outline" target="_blank" rel="noopener">Ver certificado</a>
+      </div>
+
+      <div class="cert-card">
+        <img class="cert-card__badge" src="java-oo.jpg" alt="Certificado: Java OO: Entendendo a Orientação a Objetos">
+        <h3>Java OO: Entendendo a Orientação a Objetos</h3>
+        <p>Alura / Programação Paraná</p>
+        <p>2025</p>
+        <a href="java-oo.pdf" class="btn btn--outline" target="_blank" rel="noopener">Ver certificado</a>
+      </div>
+
+      <div class="cert-card">
+        <img class="cert-card__badge" src="java-lang-object-string.jpg" alt="Certificado: Java e java.lang: Programe com a classe Object e String">
+        <h3>Java e java.lang: Programe com a classe Object e String</h3>
+        <p>Alura / Programação Paraná</p>
+        <p>2025</p>
+        <a href="java-lang-object-string.pdf" class="btn btn--outline" target="_blank" rel="noopener">Ver certificado</a>
+      </div>
+
+      <div class="cert-card">
+        <img class="cert-card__badge" src="triathlon-declaracao.jpg" alt="Certificado: Declaração de Resultados — Triathlon Paranaense">
+        <h3>Declaração de Resultados — Triathlon Paranaense</h3>
+        <p>Federação Paranaense de Triathlon</p>
+        <p>2025</p>
+        <a href="triathlon-2024-2025.pdf" class="btn btn--outline" target="_blank" rel="noopener">Ver certificado</a>
+      </div>
+
+      <div class="cert-card">
+        <img class="cert-card__badge" src="kumon.jpg" alt="Certificado tempo de Kumon — Matemática">
+        <h3>Certificado Tempo de Kumon — Matemática</h3>
+        <p>Kumon (Unidade Xaxim-Francisco Derosso)</p>
+        <p>2023</p>
+        <a href="kumon.jpg" class="btn btn--outline" target="_blank" rel="noopener">Ver certificado</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="contato" id="contato">
+  <div class="container">
+    <div class="section-title">
+      <span class="section-title__script">vamos conversar</span>
+      <h2 class="section-title__main">Contato</h2>
+    </div>
+
+    <ul class="contato__links">
+      <li>
+        <a href="https://github.com/Sofiscda" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55
+          0-.27-.01-1-.02-1.96-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7
+          1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.24 3.34.95.1-.74.4-1.24.72-1.53-2.55-.29-5.24-1.28-5.24-5.69
+          0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.73 0c2.18-1.49
+          3.15-1.18 3.15-1.18.62 1.58.23 2.75.11 3.04.73.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.4-5.25 5.68.41.36.78
+          1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.2.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+          GitHub
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/sofia-camillo-de-andrade/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85
+          0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38
+          4.28 5.47v6.27ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+          LinkedIn
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/sofis.cda/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.97.24 2.43.4.58.22 1
+          .49 1.44.93.44.44.71.86.93 1.44.16.46.35 1.26.4 2.43.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05
+          1.17-.24 1.97-.4 2.43-.22.58-.49 1-.93 1.44-.44.44-.86.71-1.44.93-.46.16-1.26.35-2.43.4-1.27.06-1.65
+          .07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.97-.24-2.43-.4a3.9 3.9 0 0 1-1.44-.93 3.9 3.9 0 0
+          1-.93-1.44c-.16-.46-.35-1.26-.4-2.43C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.24-1.97
+          .4-2.43.22-.58.49-1 .93-1.44.44-.44.86-.71 1.44-.93.46-.16 1.26-.35 2.43-.4C8.42 2.17 8.8 2.16 12
+          2.16Zm0 1.62c-3.15 0-3.5.01-4.74.07-.97.04-1.5.21-1.85.35-.46.18-.79.39-1.14.74-.35.35-.56.68-.74
+          1.14-.14.35-.31.88-.35 1.85-.06 1.24-.07 1.59-.07 4.74s.01 3.5.07 4.74c.04.97.21 1.5.35 1.85.18.46
+          .39.79.74 1.14.35.35.68.56 1.14.74.35.14.88.31 1.85.35 1.24.06 1.59.07 4.74.07s3.5-.01 4.74-.07c.97
+          -.04 1.5-.21 1.85-.35.46-.18.79-.39 1.14-.74.35-.35.56-.68.74-1.14.14-.35.31-.88.35-1.85.06-1.24.07
+          -1.59.07-4.74s-.01-3.5-.07-4.74c-.04-.97-.21-1.5-.35-1.85a3.06 3.06 0 0 0-.74-1.14 3.06 3.06 0 0
+          0-1.14-.74c-.35-.14-.88-.31-1.85-.35-1.24-.06-1.59-.07-4.74-.07Zm0 4.12a4.1 4.1 0 1 1 0 8.2 4.1 4.1
+          0 0 1 0-8.2Zm0 1.62a2.48 2.48 0 1 0 0 4.96 2.48 2.48 0 0 0 0-4.96Zm5.22-1.8a.96.96 0 1 1-1.92
+          0 .96.96 0 0 1 1.92 0Z"/></svg>
+          Instagram
+        </a>
+      </li>
+      <li>
+        <a href="mailto:s.camillodea@gmail.com">
+          <svg viewBox="0 0 24 24"><path d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5
+          1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13Zm2.2.5 7.3 5.47a.8.8 0 0 0 .96 0L19.8 6H4.2Zm15.8
+          1.35-6.86 5.14a2.8 2.8 0 0 1-3.28 0L3 7.35V18h17V7.35Z"/></svg>
+          E-mail
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  © 2026 Sofia Camillo de Andrade
+</footer>
+
+</body>
+</html>
